@@ -17,12 +17,12 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-gold shrink-0 mt-1" />
-                <span>Mahipalpur, New Delhi, India</span>
+                <span>Office No - 118, Defence Enclave, Adjoining Vasant Kunj, Mahipalpur, New Delhi, Delhi 110037</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-5 w-5 text-gold shrink-0" />
-                <a href="tel:+911234567890" className="hover:text-gold transition-smooth">
-                  +91 123 456 7890
+                <a href="tel:+919818931148" className="hover:text-gold transition-smooth">
+                  +91 98189 31148
                 </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">

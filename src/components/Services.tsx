@@ -86,7 +86,7 @@ const Services = () => {
                   <span className="text-sm text-muted-foreground">{service.duration}</span>
                 </div>
                 <Button 
-                  onClick={() => window.location.href = "tel:+911234567890"}
+                  onClick={() => window.location.href = "tel:+919818931148"}
                   className="w-full bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark font-semibold transition-smooth"
                 >
                   <Phone className="mr-2 h-4 w-4" />
