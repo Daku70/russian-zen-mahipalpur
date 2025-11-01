@@ -17,7 +17,14 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-gold shrink-0 mt-1" />
-                <span>Office No - 118, Defence Enclave, Adjoining Vasant Kunj, Mahipalpur, New Delhi, Delhi 110037</span>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=Office+No+118+Defence+Enclave+Adjoining+Vasant+Kunj+Mahipalpur+New+Delhi+Delhi+110037" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-gold transition-smooth"
+                >
+                  Office No - 118, Defence Enclave, Adjoining Vasant Kunj, Mahipalpur, New Delhi, Delhi 110037
+                </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-5 w-5 text-gold shrink-0" />
