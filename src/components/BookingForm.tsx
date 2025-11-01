@@ -44,7 +44,7 @@ const BookingForm = () => {
       `*Service:* ${encodeURIComponent(formData.service)}`;
     
     // Open WhatsApp with the message
-    const whatsappUrl = `https://wa.me/918252462474?text=${message}`;
+    const whatsappUrl = `https://wa.me/919818931148?text=${message}`;
     window.open(whatsappUrl, '_blank');
 
     toast({
