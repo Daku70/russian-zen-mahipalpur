@@ -51,6 +51,34 @@ const services = [
     duration: "120 minutes",
     image: coupleSpaImage,
   },
+  {
+    title: "Thai Massage",
+    description: "Traditional Thai massage with stretching and acupressure techniques",
+    price: "₹3,200",
+    duration: "75 minutes",
+    image: massageImage,
+  },
+  {
+    title: "Sports Massage",
+    description: "Targeted massage for athletes to enhance performance and recovery",
+    price: "₹3,800",
+    duration: "60 minutes",
+    image: deepTissueImage,
+  },
+  {
+    title: "Reflexology",
+    description: "Therapeutic foot massage focusing on pressure points for full body wellness",
+    price: "₹2,200",
+    duration: "45 minutes",
+    image: swedishImage,
+  },
+  {
+    title: "Shiatsu Massage",
+    description: "Japanese pressure point massage for energy balance and relaxation",
+    price: "₹3,500",
+    duration: "60 minutes",
+    image: aromatherapyImage,
+  },
 ];
 
 const Services = () => {
