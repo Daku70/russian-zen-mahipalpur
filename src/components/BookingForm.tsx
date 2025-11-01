@@ -36,9 +36,20 @@ const BookingForm = () => {
       return;
     }
 
+    // Create WhatsApp message with booking details
+    const message = `*New Booking Request*%0A%0A` +
+      `*Name:* ${encodeURIComponent(formData.name)}%0A` +
+      `*Phone:* ${encodeURIComponent(formData.phone)}%0A` +
+      `*Email:* ${encodeURIComponent(formData.email)}%0A` +
+      `*Service:* ${encodeURIComponent(formData.service)}`;
+    
+    // Open WhatsApp with the message
+    const whatsappUrl = `https://wa.me/919818931148?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+
     toast({
-      title: "Booking Request Received",
-      description: "We'll contact you shortly to confirm your appointment.",
+      title: "Opening WhatsApp",
+      description: "Send the message to complete your booking request.",
     });
 
     setFormData({ name: "", phone: "", email: "", service: "" });
