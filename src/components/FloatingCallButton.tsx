@@ -7,7 +7,7 @@ const FloatingCallButton = () => {
   };
 
   const handleWhatsApp = () => {
-    window.location.href = "whatsapp://send?phone=919818931148";
+    window.open("https://wa.me/919818931148", "_blank");
   };
 
   return (
