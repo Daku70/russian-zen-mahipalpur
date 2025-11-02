@@ -53,8 +53,22 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Russian Spa Centre. All rights reserved.</p>
+        <div className="mt-12 pt-8 border-t border-border">
+          <div className="text-center text-muted-foreground mb-4">
+            <p>&copy; {new Date().getFullYear()} Russian Spa Centre. All rights reserved.</p>
+          </div>
+          
+          {/* SEO Keywords Section */}
+          <div className="text-xs text-muted-foreground/60 text-center space-y-2">
+            <p>
+              Russian Body Massage Centres | Beauty Spas For Men | 24 Hours Beauty Spas | 
+              Massage Centres For Men | 24 Hours Body Massage Centres | Beauty Spas
+            </p>
+            <p>
+              Serving areas: Mahipalpur, Vasant Kunj, Defence Colony, South Delhi | 
+              Pincodes: 110070, 110037, 110097, 110067, 110057
+            </p>
+          </div>
         </div>
       </div>
     </footer>
