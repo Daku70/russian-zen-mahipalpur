@@ -61,8 +61,11 @@ const Footer = () => {
           {/* SEO Keywords Section */}
           <div className="text-xs text-muted-foreground/60 text-center space-y-2">
             <p>
-              Russian Body Massage Centres | Beauty Spas For Men | 24 Hours Beauty Spas | 
-              Massage Centres For Men | 24 Hours Body Massage Centres | Beauty Spas
+              Russian Body | Massage Centres | Beauty Spas For Men | Russian Body Massage Centres | 
+              Russian Body Massage Centres-Z | Beauty Spas For Men-A | 24 Hours Beauty Spas Massage | 
+              Centres For Men | 24 Hours Beauty Spas-A | Massage Centres For Men-Z | 
+              24 Hours Body Massage Centres | Beauty Spas | 24 Hours Body Massage Centres-Z | 
+              Beauty Spas-A | Russian spa in mahipalpur | Russian spa in aerocity | Russian spa Mahipalpur
             </p>
             <p>
               Serving areas: Mahipalpur, Aerocity, Defence Colony, South Delhi | 
