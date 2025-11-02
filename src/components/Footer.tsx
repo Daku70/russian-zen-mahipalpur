@@ -46,9 +46,9 @@ const Footer = () => {
             <div className="space-y-2 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Clock className="h-5 w-5 text-gold shrink-0" />
-                <span>Monday - Sunday</span>
+                <span>Open 24 Hours</span>
               </div>
-              <p className="ml-7">10:00 AM - 10:00 PM</p>
+              <p className="ml-7">Monday - Sunday</p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
             </p>
             <p>
               Serving areas: Mahipalpur, Aerocity, Defence Colony, South Delhi | 
-              Pincodes: 110070, 110037, 110097, 110067, 110057
+              Pincodes: 110001, 110011, 110089, 110075, 110070, 110005, 110049, 11048, 122001, 122002, 201014, 201002, 201301, 121001, 110037, 110097, 110067, 110057
             </p>
           </div>
         </div>
