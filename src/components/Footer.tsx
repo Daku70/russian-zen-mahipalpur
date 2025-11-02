@@ -23,7 +23,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-gold transition-smooth"
                 >
-                  Office No - 118, Defence Enclave, Adjoining Vasant Kunj, Mahipalpur, New Delhi, Delhi 110037
+                  Office No - 118, Defence Enclave, Adjoining Aerocity, Mahipalpur, New Delhi, Delhi 110037
                 </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
@@ -65,7 +65,7 @@ const Footer = () => {
               Massage Centres For Men | 24 Hours Body Massage Centres | Beauty Spas
             </p>
             <p>
-              Serving areas: Mahipalpur, Vasant Kunj, Defence Colony, South Delhi | 
+              Serving areas: Mahipalpur, Aerocity, Defence Colony, South Delhi | 
               Pincodes: 110070, 110037, 110097, 110067, 110057
             </p>
           </div>
