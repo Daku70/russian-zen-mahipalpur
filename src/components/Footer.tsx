@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-gold shrink-0 mt-1" />
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Office+No+118+Defence+Enclave+Adjoining+Vasant+Kunj+Mahipalpur+New+Delhi+Delhi+110037" 
+                  href="https://maps.app.goo.gl/2LTFUUiwPaqB2Y1c7" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-gold transition-smooth"
